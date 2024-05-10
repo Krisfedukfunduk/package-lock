@@ -23,7 +23,7 @@ function NoMatch() {
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/package-lock">
         <Header />
         <main className="container content">
           <Routes>
